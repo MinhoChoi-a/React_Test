@@ -1,0 +1,103 @@
+.card {
+    display:flex;
+    flex-direction: row;
+    align-items: center;    
+    margin:0;
+    
+    border-bottom:1px solid gainsboro;
+    padding-left: 20px;
+    align-items: flex-start;    
+}
+
+.image {
+    margin-top:10px;
+    padding: 10px;    
+}
+
+.image img{
+    
+    border-radius: 50%;
+    border: 1px solid gainsboro;
+    width: 170px;    
+}
+
+.info {
+    min-width:fit-content;
+    padding: 10px;
+    width: 500px;
+    align-self: center;
+}
+
+p {
+    font-size: 25px;
+    margin: 5px;
+    padding-left: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.gradeTable {
+    
+    margin-top: 20px;
+    padding-left: 35px;
+    font-size: 25px;
+}
+
+.gradeInfo {
+    padding-left: 30px;
+}
+
+button {
+    background: none;    
+    border: none;
+    outline: none;
+    font-size: 80px;
+    color:gray;
+
+}
+
+.grades {
+    display: flex; 
+    width: 100%;
+    height: 100%;    
+    justify-content: flex-end;    
+}
+
+.tagList {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+.tag {
+    padding: 10px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.addTag {
+    padding-left: 30px;    
+}
+
+.inputTag {
+
+    font-size: 20px;
+    background: none;
+    border: none;
+    border-bottom:1px solid gainsboro;
+    padding: 10px;
+    margin-top:10px;
+}
+
+.inputTag:focus {
+    
+    outline: none;
+    border-bottom:1px solid black;
+
+}

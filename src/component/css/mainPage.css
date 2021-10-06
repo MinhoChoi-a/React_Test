@@ -1,0 +1,50 @@
+.container {
+    
+    background-color: white;
+    width: 60%;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+    overflow: auto;   
+    padding: 10px;
+    border-radius: 10px;   
+}
+
+.searchName {
+
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    border-bottom:1px solid gainsboro;
+    padding: 10px;
+    outline: none;
+}
+
+.searchName:focus {
+    
+    outline: none;
+    border-bottom:1px solid black;
+
+}
+
+.searchTag {
+    margin-top: 30px;
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    background: none;
+    border: none;
+    border-bottom:1px solid gainsboro;
+    padding: 10px;
+    outline: none;
+}
+
+.searchTag:focus {
+    
+    outline: none;
+    border-bottom:1px solid black;
+
+}
